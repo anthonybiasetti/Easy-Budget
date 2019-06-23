@@ -4,7 +4,7 @@ function AddBill(){
 	if (bill != null) {		
 		var billsTable = document.getElementById("billTableId");
 		var textBox = document.createElement("INPUT");
-		textBox.setAttribute("type", "number");
+		textBox.setAttribute("type", "tel");
 
 		var row = billsTable.insertRow();
 		row.setAttribute("id", bill.replace(/\s/g, '') + "TableId");
